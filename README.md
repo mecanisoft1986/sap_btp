@@ -1,2 +1,2 @@
 # sap_btp
-contiene las procticas de sap btp cloud
+contiene las practicas de sap btp cloud
