@@ -1,0 +1,19 @@
+CLASS zcl_implement_abs  DEFINITION
+  INHERITING FROM zcl_student_abs
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS set_value REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_implement_abs IMPLEMENTATION.
+  METHOD set_value.
+    me->mv_value = iv_a.
+  ENDMETHOD.
+ENDCLASS.
